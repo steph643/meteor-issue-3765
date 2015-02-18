@@ -1,6 +1,6 @@
 # meteor-issue-3765
 
-This is the repo for reproducing Meteor issue #3765: [Blaze messing up with inline style definition](https://github.com/meteor/meteor/issues/3765)
+This is the repo for reproducing Meteor issue #3765: **[Blaze messing up with inline style definition](https://github.com/meteor/meteor/issues/3765)**
 
 Meteor version: `WINDOWS-PREVIEW@0.1.7` (issue occurs also with Meteor 0.8.3)
 

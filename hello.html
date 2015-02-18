@@ -1,0 +1,24 @@
+<head>
+  <title>hello</title>
+</head>
+
+
+<body>
+  <h1>Welcome to Meteor!</h1>
+  {{> hello}}
+</body>
+
+
+<template name="hello">
+
+  <button>Click Me</button>
+
+  <p>You've pressed the button {{counter}} times.</p>
+
+  <h4>Case 1: as expected</h4>
+  <p style="{{#if counter}}visibility:hidden{{/if}}; color:red;">Still waiting for a click!</p>
+
+  <h4>Case 2: unexpected behavior, by omitting the final semicolon in the inline style</h4>
+  <p style="{{#if counter}}visibility:hidden{{/if}}; color:red">Still waiting for a click!</p>
+
+</template>
